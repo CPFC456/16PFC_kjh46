@@ -1,21 +1,21 @@
 name = 'Jinhyeong Kim'
-my_age = 21 # It's a lie
-my_height_cm = 180.5
+age = 21 # It's a lie
+height_cm = 180.5
 cm_to_inch = 1.0 / 2.54
-my_height_inch = my_height_cm * cm_to_inch
-my_weight_kg = 80
-my_eyes = 'Black'
-my_teeth = 'Brown'
-my_hair = 'Black'
+height_inch = height_cm * cm_to_inch
+weight_kg = 80
+eyes = 'Black'
+teeth = 'Brown'
+hair = 'Black'
 # please hojder
 print "Let's talk about %s" % name
-print "He's %g centimeters tall." % my_height_cm
-print "He's %g inches tall" % my_height_inch
-print "He's %d kilograms heavy." % my_weight_kg
+print "He's %g centimeters tall." % height_cm
+print "He's %g inches tall" % height_inch
+print "He's %d kilograms heavy." % weight_kg
 print "Actually that's not too heavy."
-print "He's got %s eyes and %s hair." % (my_eyes, my_hair)
-print "His teeth are usually %s depending on the coffee." % my_teeth
+print "He's got %s eyes and %s hair." % (eyes, hair)
+print "His teeth are usually %s depending on the coffee." % teeth
 
  # this line is tricky, try to get it exactly right
 print "If I add %d, %d, and %d I get %d." % (
-    my_age, my_height_cm, my_weight_kg, my_age + my_height_cm + my_weight_kg)
+    age, height_cm, weight_kg, age + height_cm + weight_kg)

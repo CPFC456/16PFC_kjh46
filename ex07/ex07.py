@@ -3,11 +3,11 @@ print "Its fleece was white as %s." % 'snow'
 print "And everywhere that Mary went."
 print "." * 10  # what'd that do?
 
-end1 = "C"
-end2 = "h"
-end3 = "e"
-end4 = "e"
-end5 = "s"
+end1 = "C"  # cooooooommeeeeeentttttt
+end2 = "h"  # I'm hungry
+end3 = "e"  # very hungry
+end4 = "e"  # starve starve
+end5 = "s"  # Don't starve
 end6 = "e"
 end7 = "B"
 end8 = "u"

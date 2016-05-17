@@ -1,9 +1,9 @@
-# -*-coding"utf8
+# -*-coding:utf8
 
 people = 20
 cats = 30
 dogs = 15
-
+# 변수 입력
 
 if people < cats:
     print ("Too many cats! The world is doomed!")
@@ -16,7 +16,7 @@ if people < dogs:
 
 if people > dogs:
     print ("The world is dry!")
-
+# 부등식
 
 dogs += 5
 
@@ -29,3 +29,4 @@ if people <= dogs:
 
 if people == dogs:
     print ("People are dogs.")
+# 꾸에에에에에엑

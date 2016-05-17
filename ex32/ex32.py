@@ -1,6 +1,9 @@
+# -*-coding:utf8
+
 the_count = [1, 2, 3, 4, 5]
 fruits = ['apples', 'oranges', 'pears', 'apricots']
 change = [1, 'pennies', 2, 'dimes', 3, 'quarters']
+# 리스트에는 숫자나 문자열이 들어갈 수 있고 리스트 안에 리스트를 넣을 수 있다.
 
 # this first kind of for-loop goes through a list
 for number in the_count:
@@ -27,3 +30,7 @@ for i in range(0, 6):
 # now we can print them out too
 for i in elements:
     print "Element was: %d" % i
+
+
+# for문은 여러 변수들을 나열할 수 있다??    결과문 참조
+# range()는 등차수열을 만들어 준다고 보면 됨

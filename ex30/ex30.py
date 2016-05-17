@@ -2,10 +2,10 @@
 
 people = 30
 cars = 40
-trucks = 15
+trucks = 30
 # 변수 입력
 
-if cars > people:
+if cars > people or trucks < cars:
     print "We should take the cars."
 elif cars < people:
     print "We should not take the cars."
